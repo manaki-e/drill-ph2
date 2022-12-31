@@ -1,6 +1,6 @@
 <?php
     session_start();
-    # nameというkeyに、POSSEという値をセットする
+    $_SESSION["name"] = "POSSE";
 ?>
 <!DOCTYPE html>
 <html lang="en">
