@@ -11,4 +11,4 @@ const add = (num1, num2) => {
 
 
 
-add("string", "string");
+add(1, 1);
