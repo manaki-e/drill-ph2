@@ -7,7 +7,7 @@ interface IPosseStudent
 
 class PosseStudent implements IPosseStudent
 {
-    public string $name;
+    protected string $name;
 
     public function __construct(string $name)
     {

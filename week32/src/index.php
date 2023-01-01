@@ -47,8 +47,8 @@ try {
 google.charts.load('current', {packages: ['corechart', 'bar']});
 google.charts.setOnLoadCallback(function () {
     const data = new google.visualization.DataTable();
-    data.addColumn('string', 'hoge date');
-    data.addColumn('number', 'fuga hours');
+    data.addColumn('string', 'Study date');
+    data.addColumn('number', 'Study hours');
     data.addRows(<?= $chart_data; ?>);
     const chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
     chart.draw(data, { title: '日毎の学習時間' });

@@ -3,9 +3,9 @@
 class Student {
     /**
      * @constructor
-     * @param {string} 
-     * @param {number} 
-     * @param {number}
+     * @param {string} name
+     * @param {number} age
+     * @param {number} sex
     */
     constructor(name, age, sex) {
         this.name = name;
@@ -14,36 +14,36 @@ class Student {
     }
 
     /**
-     * @return {void} - 名前を返す
+     * @return {string}  - 名前を返す
      */
     get name() {
         return this.name;
     }
 
     /**
-     * @return {void} - 年齢を返す
+     * @return {number} - 年齢を返す
      */
     get age() {
         return this.age
     }
 
     /**
-     * @return {void} - 性別を返す
+     * @return {number}  - 性別を返す
      */
     get sex() {
         return this.sex
     }
 
     /**
-     * @param {string} - 名前
+     * @param {string} name - 名前
      * @return {void}
      */
-     set name(name) {
+    set name(name) {
         this.name = name;
     }
 
     /**
-     * @param {number} - 年齢
+     * @param {number} age - 年齢
      * @return {void}
      */
     set age(age) {
@@ -51,7 +51,7 @@ class Student {
     }
 
     /**
-     * @param {number} - 性別
+     * @param {number} sex - 性別
      * @return {void}
      */
     set sex(sex) {

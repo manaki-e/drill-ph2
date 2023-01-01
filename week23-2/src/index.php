@@ -8,6 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-  <?= ??? ?>
+  <?= $_COOKIE['key']; ?>
 </body>
 </html>
